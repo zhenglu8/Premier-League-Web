@@ -5,7 +5,10 @@
   align-items: center;
   justify-content: center;
   color: white;
-  background-image: linear-gradient(79deg, #7439db, #C66FBC, #F7944D);
+  /*background-image: linear-gradient(79deg, #7439db, #C66FBC, #F7944D);*/
+  background-image: url("soccer-background.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .auth-form-container, .login-container, .register-container {
@@ -18,6 +21,8 @@
   border: 1px solid white;
   border-radius: 10px;
   margin: 0.5rem;
+  /*background-image: linear-gradient(79deg, #7439db, #C66FBC, #F7944D);*/
+  background-color: rgb(51, 51, 51);
 }
 
 label{
@@ -38,7 +43,7 @@ button {
   padding:20px;
   border-radius: 10px;
   cursor: pointer;
-  color: #7439db;
+  color: black;
 }
 
 .link-button {
